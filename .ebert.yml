@@ -1,0 +1,40 @@
+styleguide: plataformatec/linters
+engines:
+  phan:
+    enabled: false
+  reek:
+    enabled: true
+  credo:
+    enabled: true
+  fixme:
+    enabled: true
+  gofmt:
+    enabled: true
+  govet:
+    enabled: true
+  phpmd:
+    enabled: true
+  radon:
+    enabled: true
+  eslint:
+    enabled: true
+  golint:
+    enabled: true
+  tailor:
+    enabled: true
+  csslint:
+    enabled: true
+  rubocop:
+    enabled: true
+  duplication:
+    config:
+      languages:
+      - ruby
+    enabled: true
+  remark-lint:
+    enabled: true
+  gnu-complexity:
+    enabled: true
+exclude_paths:
+- spec
+

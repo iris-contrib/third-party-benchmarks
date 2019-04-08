@@ -1,0 +1,6 @@
+require "lucky"
+require "./actions/**"
+require "./components/**"
+require "./handlers/**"
+require "../config/env"
+require "../config/**"
